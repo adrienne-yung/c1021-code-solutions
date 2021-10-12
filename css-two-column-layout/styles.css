@@ -1,0 +1,50 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+}
+
+.container {
+  align-items: center;
+  margin: auto;
+  justify-content: center;
+  width: 900px;
+}
+
+.row {
+  display: flex;
+}
+
+.column-full {
+  width: 100%;
+}
+
+.column-half {
+  width: 50%;
+}
+
+p {
+  width: 200px;
+  text-align: left;
+  font-family: 'Karla', sans-serif;
+}
+
+button {
+  color: rgb(218, 47, 81);
+  border-color: rgb(218, 47, 81);
+  padding: 10px;
+}
+
+.button {
+  text-align: center;
+}
+
+h1 {
+  text-align: center;
+}
+
+h3 {
+  text-align: left;
+}
