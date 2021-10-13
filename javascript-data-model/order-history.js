@@ -14,7 +14,6 @@ var orderHistory = [
       }
     ]
   },
-
   {
     orderPlaced: 'Jul 19, 2020',
     total: 44.53,
@@ -30,7 +29,6 @@ var orderHistory = [
       }
     ]
   },
-
   {
     orderPlaced: 'Jul 4, 2020',
     total: 17.22,
@@ -45,7 +43,6 @@ var orderHistory = [
       }
     ]
   },
-
   {
     orderPlaced: 'July 3, 2020',
     total: 138.93,
@@ -57,17 +54,7 @@ var orderHistory = [
         title: 'GameCube Controller - Super Smash BroadcastChannel. Edition (Ninentedo Switch)',
         returnWindow: 'Aug 4, 2020',
         price: 94.95
-      }
-    ]
-  },
-
-  {
-    orderPlaced: 'Jul 5, 2020',
-    total: 138.93,
-    orderNumber: '113-2883177-2648248',
-    delivered: 'Jul 5, 2020',
-    shipTo: 'JS Masher',
-    product: [
+      },
       {
         title: 'The Art of Sql',
         author: 'Faroult, Stephanie',
