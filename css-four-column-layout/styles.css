@@ -1,0 +1,52 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  font-family: 'Barlow', sans-serif;
+}
+
+.container {
+  background-color: rgb(247, 248, 250);
+  justify-content: center;
+  align-items: center;
+  margin: auto;
+}
+
+h1 {
+  text-align: center;
+}
+
+h3 {
+  text-align: center;
+}
+
+p {
+  text-align: center;
+  font-size: 15px;
+}
+
+.column-full {
+  width: 100%;
+}
+
+.column-one-fourth {
+  width: 25%;
+}
+
+.row {
+  display: flex;
+}
+
+.section {
+  display: flex;
+}
+
+.screen-img {
+  width: 100%;
+}
+
+.icon-img {
+  width: 35%;
+}
