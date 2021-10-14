@@ -75,6 +75,7 @@ p {
 
 .picture {
   background-image: url('images/hero.jpg');
+  background-size: auto;
 }
 
 .bottom-nav {
