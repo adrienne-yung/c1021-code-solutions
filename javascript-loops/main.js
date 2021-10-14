@@ -24,6 +24,7 @@ function repeatWord(word, times) {
   repeated += 'words';
   return repeated;
 }
+console.log(repeatWord);
 
 function logEachCharacter(string) {
   var character = [];
