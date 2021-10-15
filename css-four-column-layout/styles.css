@@ -48,5 +48,9 @@ p {
 }
 
 .icon-img {
-  width: 35%;
+  width: 40%;
+}
+
+.icon-img-align {
+  padding-left: 130px;
 }
