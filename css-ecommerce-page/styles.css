@@ -48,3 +48,8 @@ p {
 .pad-lv-img {
   padding-top: 30px;
 }
+
+mark {
+  background-color: rgb(250, 216, 204);
+  color: black;
+}
