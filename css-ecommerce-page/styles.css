@@ -7,7 +7,7 @@ body {
 }
 
 .container {
-  max-width: 900px;
+  max-width: 1000px;
   justify-content: center;
   align-items: center;
   margin: auto;
@@ -39,10 +39,11 @@ h1 {
 
 p {
   text-align: left;
+  font-size: 13px;
 }
 
 .item-img {
-  width: 100%;
+  width: 80%;
 }
 
 .pad-lv-img {
@@ -52,4 +53,8 @@ p {
 mark {
   background-color: rgb(250, 216, 204);
   color: black;
+}
+
+.div {
+  margin: 10px;
 }
