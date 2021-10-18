@@ -10,6 +10,7 @@ body {
   margin: auto;
   justify-content: center;
   max-width: 1000px;
+  align-items: center;
 }
 
 .column-one-half {
@@ -51,23 +52,35 @@ p {
 
 .h3-clinicians {
   text-align: center;
+  padding-top: 10px;
 }
 
 .first-canvas {
   color: darkblue;
+  font-size: 25px;
 }
 
 .second-canvas {
   color: white;
+  font-size: 25px;
+  margin-left: 70px;
+  margin-top: 60px;
 }
 
 .row-six-background {
   background-color: rgb(82, 83, 81);
   display: flex;
+  width: 1000px;
+  height: 300px;
 }
 
 .row-three-background {
   background-color: rgb(250, 250, 250);
+  height: 300px;
+}
+
+.margin-between-row {
+  margin-top: 50px;
 }
 
 .wrap-row-three {
@@ -77,6 +90,7 @@ p {
 
 .picture-height {
   height: 500px;
+  width: 1000px;
 }
 
 .picture {
@@ -86,7 +100,7 @@ p {
 
 .bottom-nav {
   display: flex;
-  width: 10px;
+  width: 20px;
 }
 
 .top-nav {
@@ -95,7 +109,12 @@ p {
 
 .nav {
   display: flex;
-  flex-direction: column;
+  color: white;
+  font-size: 18px;
+}
+
+.white-nav {
+  color: white;
 }
 
 .ready-paragraph {
@@ -104,29 +123,46 @@ p {
 
 .clinicians-paragraph {
   text-align: center;
-  font-size: 10px;
+  font-size: 14px;
+  width: 415px;
+  margin-left: 300px;
+}
+
+.emr-header {
+  padding-left: 60px;
 }
 
 .emr-paragraph {
-  width: 400px;
+  width: 440px;
+  color: white;
 }
 
-.button-two {
-  display: flex;
-  margin-left: 400px;
+.padding-left-paragraph {
+  padding-left: 60px;
 }
 
 .ready {
   display: flex;
 }
 
-.get-started-button {
+.get-started-button-one {
   color: white;
   background-color: rgb(42, 42, 156);
-  padding-top: 10px;
-  padding-bottom: 10px;
-  padding-right: 40px;
-  padding-left: 40px;
+  padding-top: 12px;
+  padding-bottom: 12px;
+  padding-right: 38px;
+  padding-left: 38px;
+  margin-left: 50px;
+  margin-top: 10px;
+}
+
+.get-started-button-two {
+  color: white;
+  background-color: rgb(42, 42, 156);
+  padding-top: 12px;
+  padding-bottom: 12px;
+  padding-right: 38px;
+  padding-left: 38px;
 }
 
 .align {
@@ -140,4 +176,15 @@ p {
 
 .text-align {
   text-align: center;
+}
+
+.flex-column-one-half {
+  display: flex;
+  margin-top: 50px;
+}
+
+.canvas-address {
+  color: white;
+  margin-left: 70px;
+  font-size: 13px;
 }
