@@ -44,10 +44,18 @@ p {
   font-family: 'Avenir', sans-serif;
 }
 
+a {
+  font-family: 'Avenir', sans-serif;
+}
+
 .h3-emr {
   color: white;
   padding-top: 50px;
   width: 300px;
+}
+
+.h3-ready {
+  font-size: 18px;
 }
 
 .h3-clinicians {
@@ -83,6 +91,14 @@ p {
   margin-top: 50px;
 }
 
+.margin-between-row-three-and-four {
+  margin-top: 10px;
+}
+
+.margin-between-row-five-and-six {
+  margin-top: 20px;
+}
+
 .wrap-row-three {
   flex-wrap: wrap;
   text-align: center;
@@ -104,21 +120,35 @@ p {
 }
 
 .top-nav {
-  font-size: 15px;
+  font-size: 18px;
+  width: 100%;
+}
+
+.top-nav-dec {
+  text-decoration: none;
 }
 
 .nav {
   display: flex;
   color: white;
   font-size: 18px;
+  padding-top: 50px;
 }
 
 .white-nav {
   color: white;
+  text-decoration: none;
+}
+
+.contact-us-nav {
+  background-color: rgb(42, 42, 156);
+  color: white;
+  padding: 10px;
 }
 
 .ready-paragraph {
-  font-size: 10px;
+  font-size: 15px;
+  margin-bottom: 60px;
 }
 
 .clinicians-paragraph {
@@ -143,6 +173,7 @@ p {
 
 .ready {
   display: flex;
+  width: 100%;
 }
 
 .get-started-button-one {
@@ -163,6 +194,8 @@ p {
   padding-bottom: 12px;
   padding-right: 38px;
   padding-left: 38px;
+  margin-left: 300px;
+  margin-top: 20px;
 }
 
 .align {
@@ -187,4 +220,10 @@ p {
   color: white;
   margin-left: 70px;
   font-size: 13px;
+}
+
+.priv-text-dec {
+  text-decoration: none;
+  padding-left: 80px;
+  color: black;
 }
