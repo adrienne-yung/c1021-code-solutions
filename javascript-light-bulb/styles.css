@@ -12,12 +12,16 @@
   height: 1000px;
 }
 
+/* add a class called light-container */
+.light-container {
+  background-color: white;
+}
+
 .lightbulb {
   width: 300px;
   height: 300px;
   border-radius: 50%;
   display: inline-block;
-  border: solid rgb(48, 46, 46);
 }
 
 .lightOn {
@@ -27,10 +31,12 @@
   height: 300px;
   display: inline-block;
   border: solid rgb(250, 248, 117);
+  border-radius: 50%;
 }
 
 .lightOff {
   background-color: rgb(95, 94, 94);
   box-shadow: 0 -25px;
   border: solid rgb(95, 94, 94);
+  border-radius: 50%;
 }

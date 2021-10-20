@@ -24,12 +24,18 @@ lightbulb.addEventListener ('click', function light(on) {
 } */
 var on = false;
 var lightSwitch = document.querySelector('button');
+// declare var named container
+var container = document.querySelector('.container');
 lightSwitch.addEventListener('click', function light(event) {
   if (on === true) {
-    document.querySelector('.lightOn');
+    lightSwitch.classList.add('lightOff');
+    // remove light-continer class from container
+    container.classList.remove('light-container');
     on = false;
   } else {
-    document.querySelector('.lightOff');
+    lightSwitch.classList.remove('lightOff');
+    // add light-container class to container
+    container.classList.add('light-container');
     on = true;
   }
 });
