@@ -9,9 +9,6 @@ body {
 
 .container {
   background-color: rgb(247, 248, 250);
-  justify-content: center;
-  align-items: center;
-  margin: auto;
 }
 
 h1 {
@@ -39,10 +36,6 @@ p {
   display: flex;
 }
 
-.section {
-  display: flex;
-}
-
 .screen-img {
   width: 100%;
 }
@@ -51,6 +44,6 @@ p {
   width: 40%;
 }
 
-.icon-img-align {
-  padding-left: 130px;
+.text-align-img {
+  text-align: center;
 }
