@@ -13,6 +13,10 @@ body {
   align-items: center;
 }
 
+.border-bottom {
+  border-bottom: rgb(185, 183, 183) solid;
+}
+
 .column-one-half {
   width: 50%;
 }
@@ -116,16 +120,25 @@ a {
 
 .bottom-nav {
   display: flex;
-  width: 20px;
+  width: 25px;
+}
+
+.text-align-nav {
+  text-align: left;
+  padding-top: 200px;
 }
 
 .top-nav {
   font-size: 18px;
   width: 100%;
+  margin-top: 30px;
+  margin-left: 26px;
 }
 
 .top-nav-dec {
   text-decoration: none;
+  margin-left: 5px;
+  margin-right: 5px;
 }
 
 .nav {
@@ -138,6 +151,10 @@ a {
 .white-nav {
   color: white;
   text-decoration: none;
+}
+
+.row-one-nav-color {
+  color: rgb(185, 183, 183);
 }
 
 .contact-us-nav {
@@ -201,6 +218,7 @@ a {
 .align {
   align-items: center;
   justify-content: space-between;
+  margin-bottom: 30px;
 }
 
 .row {
