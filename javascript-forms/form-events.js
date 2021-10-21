@@ -10,6 +10,7 @@ function handleFocus(event) {
 var userEmailInput = document.querySelector('#user-email');
 userEmailInput.addEventListener('blur', handleBlur);
 userEmailInput.addEventListener('focus', handleFocus);
+userEmailInput.addEventListener('input', handleInput);
 function handleBlur(event) {
   console.log('blur event was fired');
   console.log('event.target.name', event.target.name);
