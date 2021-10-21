@@ -5,8 +5,8 @@ function clickTaskList(event) {
   console.log('event.target.tagName:', event.target.tagName);
   var taskListItem = document.querySelector('.task-list-item');
   var closestElement = $taskList.closest('.task-list-item');
-  if (event.target === 'button') {
+  if (event.target.tagName === 'BUTTON') {
     console.log(closestElement);
+    taskListItem.remove();
   }
-  taskListItem.remove();
 }
