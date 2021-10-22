@@ -11,7 +11,7 @@ step6: create a situation that allows a selected tab w/ its content will be on d
 
 var $tabContainer = document.querySelector('.tab-container');
 var $tab = document.querySelectorAll('.tab');
-// var $view = document.querySelectorAll('.view');
+var $view = document.querySelectorAll('.view');
 $tabContainer.addEventListener('click', switchTab);
 function switchTab(event) {
   if (event.target.matches('.tab')) {
@@ -20,6 +20,14 @@ function switchTab(event) {
         $tab[i].className = ' tab active';
       } else {
         $tab[i].className = 'tab';
+      }
+    }
+    var dataView = event.target.getAttribute('data-view');
+    for (var e = 0; e < $view.length; e++) {
+      if ($view[e].getAttribute('data-view') === dataView) {
+        $view[e].className = 'view';
+      } else {
+        $view[e].className = 'view hidden';
       }
     }
   }
