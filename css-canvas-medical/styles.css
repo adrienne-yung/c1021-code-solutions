@@ -15,6 +15,7 @@ body {
 
 .border-bottom {
   border-bottom: rgb(185, 183, 183) solid;
+  margin-bottom: 50px;
 }
 
 .column-one-half {
@@ -99,10 +100,6 @@ a {
   margin-top: 10px;
 }
 
-.margin-between-row-five-and-six {
-  margin-top: 20px;
-}
-
 .wrap-row-three {
   flex-wrap: wrap;
   text-align: center;
@@ -142,15 +139,25 @@ a {
 }
 
 .nav {
-  display: flex;
   color: white;
-  font-size: 18px;
+  font-size: 17px;
   padding-top: 50px;
 }
 
 .white-nav {
   color: white;
   text-decoration: none;
+  margin-bottom: 10px;
+}
+
+.flex-direction-nav {
+  display: flex;
+  flex-direction: column;
+  width: 200px;
+}
+
+.nav-margin-right {
+  margin-left: 50px;
 }
 
 .row-one-nav-color {
@@ -218,7 +225,6 @@ a {
 .align {
   align-items: center;
   justify-content: space-between;
-  margin-bottom: 30px;
 }
 
 .row {
@@ -244,4 +250,8 @@ a {
   text-decoration: none;
   padding-left: 80px;
   color: black;
+}
+
+.margin-between-row-five-and-six {
+  margin-top: 40px;
 }
