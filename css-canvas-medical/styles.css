@@ -68,16 +68,22 @@ a {
   padding-top: 10px;
 }
 
-.first-canvas {
-  color: darkblue;
-  font-size: 25px;
+.first-canvas-img {
+  width: 120px;
+  height: 100px;
+  padding-top: 40px;
+}
+
+.second-canvas-img {
+  width: 120px;
+  height: 25px;
+  padding-top: 5px;
 }
 
 .second-canvas {
-  color: white;
-  font-size: 25px;
   margin-left: 70px;
   margin-top: 60px;
+  padding-bottom: 20px;
 }
 
 .row-six-background {
@@ -177,9 +183,8 @@ a {
 
 .clinicians-paragraph {
   text-align: center;
-  font-size: 14px;
-  width: 415px;
-  margin-left: 300px;
+  font-size: 15px;
+  align-items: center;
 }
 
 .emr-header {
