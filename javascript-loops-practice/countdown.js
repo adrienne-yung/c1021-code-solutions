@@ -7,8 +7,8 @@ step3: Return the value of storage space as your output in a form of an array. *
 
 function countdown(number) {
   var count = [];
-  for (var i = number.length - 1; i >= 0; i--) {
-    count += number[i];
+  for (var i = number; i >= 0; i--) {
+    count.push(i);
   }
   return count;
 }
