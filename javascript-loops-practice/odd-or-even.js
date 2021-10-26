@@ -10,10 +10,10 @@ step5: return values of even and odd into the same array in the same order. */
 function oddOrEven(numbers) {
   var output = [];
   for (var i = 0; i < numbers.length; i++) {
-    if (numbers[i] % 2) {
-      i = 'even';
+    if (numbers[i] % 2 === 0) {
+      output[i] = 'even';
     } else {
-      i = 'odd';
+      output[i] = 'odd';
     }
   }
   return output;
