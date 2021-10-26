@@ -1,0 +1,42 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: rgb(48, 46, 46);
+  height: 1000px;
+}
+
+/* add a class called light-container */
+.light-container {
+  background-color: white;
+}
+
+.lightbulb {
+  width: 300px;
+  height: 300px;
+  border-radius: 50%;
+  display: inline-block;
+}
+
+.lightOn {
+  background-color: rgb(250, 248, 117);
+  box-shadow: transparent;
+  width: 300px;
+  height: 300px;
+  display: inline-block;
+  border: solid rgb(250, 248, 117);
+  border-radius: 50%;
+}
+
+.lightOff {
+  background-color: rgb(95, 94, 94);
+  box-shadow: 0 -25px;
+  border: solid rgb(95, 94, 94);
+  border-radius: 50%;
+}
