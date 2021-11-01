@@ -7,12 +7,12 @@ step3: Traverse through the list of words if you have not finished the list of w
 step4: Store new set of list of words
 step5: Return values in storage space. */
 
-// function compact(array) {
-//   var values = []; {
-//     if (array[i] !== false) || (array[i] !== '') || (array[i] !== null) {
-//       return values.push(array[i]);
-//     } else {
-//       return values;
-//     }
-//   }
-// }
+function compact(array) {
+  var values = [];
+  for (var i = 0; i < array.length; i++) {
+    if ((array[i] !== false) && (array[i] !== '') && (array[i] !== null) && (array[i] !== undefined) && (Number.isNaN(array[i]) !== true) && (array[i] !== 0)) {
+      values.push(array[i]);
+    }
+  }
+  return values;
+}
