@@ -1,0 +1,18 @@
+var anObject = new Object();
+console.log('value of anObject:', anObject);
+console.log('type of anObject:', typeof anObject);
+var anArray = new Object();
+console.log('value of anArray:', anArray);
+console.log('type of anArray:', typeof anArray);
+var aFunction = new Object();
+console.log('value of aFunction:', aFunction);
+console.log('type of aFunction:', typeof aFunction);
+var aString = new Object();
+console.log('value of aString:', aString);
+console.log('typeof of aString:', typeof aString);
+var aNumber = new Object();
+console.log('value of aNumber', aNumber);
+console.log('typeof of aNumber', typeof aNumber);
+var aBoolean = new Object();
+console.log('value of aBoolean:', aBoolean);
+console.log('typeof of aBoolean:', typeof aBoolean);
