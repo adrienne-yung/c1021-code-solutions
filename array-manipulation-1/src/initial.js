@@ -10,12 +10,8 @@ step2: Return the value of storage space */
 
 function initial(array) {
   var initialResult = [];
-  if (array.length !== 0) {
-    for (var i = 0; i < array.length - 1; i++) {
-      initialResult[i] = array[i];
-    }
-  } else {
-    array = [];
+  for (var i = 0; i < array.length - 1; i++) {
+    initialResult[i] = array[i];
   }
   return initialResult;
 }

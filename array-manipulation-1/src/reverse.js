@@ -11,12 +11,8 @@ step6: return values */
 
 function reverse(array) {
   var reverseArrayResult = [];
-  if (array.length !== 0) {
-    for (var i = array.length - 1; i >= 0; i--) {
-      reverseArrayResult.push(array[i]);
-    }
-  } else {
-    array = [];
+  for (var i = array.length - 1; i >= 0; i--) {
+    reverseArrayResult.push(array[i]);
   }
   return reverseArrayResult;
 }
