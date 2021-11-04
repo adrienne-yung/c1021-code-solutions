@@ -11,7 +11,7 @@ step2: Return the value of storage space */
 function initial(array) {
   var initialResult = [];
   for (var i = 0; i < array.length - 1; i++) {
-    initialResult[i] = array[i];
+    initialResult.push(array[i]);
   }
   return initialResult;
 }

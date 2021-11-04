@@ -12,7 +12,7 @@ step6: return the value of storage space */
 function tail(array) {
   var output = [];
   for (var i = 1; i < array.length; i++) {
-    output[i - 1] = array[i];
+    output.push(array[i]);
   }
   return output;
 }
